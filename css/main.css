@@ -13,6 +13,7 @@ body {
 }
 html {
     font-family: 'Roboto mono', monospace;
+    font-size: 62.5%;
 }
 a {
     text-decoration: none;
@@ -32,14 +33,12 @@ header .header-icons-container {
     background-color: #48cfad;
 }
 header .header-icons-container .icons {
-    width: 300px;
+    width: 320px;
     height: auto;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    justify-self: end;
-    margin-right: 50px;
+    justify-self: start;
 }
 header .icons span {
     color: white;
@@ -50,19 +49,20 @@ nav {
     height: 90px;
 }
 nav .nav-logo-container {
-    margin-left: 50px;
+    margin-left: 0;
 }
 nav .nav-logo-container img {
-    width: 220px;
-    margin-top: 10px;
+    width: 170px;
+    margin-top: 20px;
 }
 nav .profile-link {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 nav .profile-link a {
+    font-size: 1.4rem;
     font-weight: bold;
     color: black;
     border-bottom: 1px solid black;
@@ -70,7 +70,7 @@ nav .profile-link a {
 .home-main {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    height: 100vh;
+    height: 100%;
     background-image: url('../assets/img/Cover.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -81,12 +81,11 @@ nav .profile-link a {
     grid-column: 2;
     justify-items: center;
     height: 350px;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 .home-main-text {
-    /* font-family: 'Roboto mono', monospace; */
-    font-size: 30px;
-    font-weight: 700px;
+    font-size: 3rem;
+    font-weight: bold;
     letter-spacing: 10px;
     color: white;
     text-align: center;
@@ -98,7 +97,7 @@ nav .profile-link a {
     background: #48cfad;
     text-align: center;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 1.7rem;
     border: 1px solid #aed5cb;
     line-height: 38px;
 }
