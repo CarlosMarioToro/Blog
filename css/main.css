@@ -11,6 +11,9 @@ body {
     left: 0;
     right: 0;
 }
+html {
+    font-family: 'Roboto mono', monospace;
+}
 a {
     text-decoration: none;
     display: inline;
@@ -60,6 +63,7 @@ nav .profile-link {
     margin-right: 50px;
 }
 nav .profile-link a {
+    font-weight: bold;
     color: black;
     border-bottom: 1px solid black;
 }
@@ -80,7 +84,7 @@ nav .profile-link a {
     margin-top: 80px;
 }
 .home-main-text {
-    font-family: 'Roboto mono', monospace;
+    /* font-family: 'Roboto mono', monospace; */
     font-size: 30px;
     font-weight: 700px;
     letter-spacing: 10px;
