@@ -99,9 +99,12 @@ nav .profile-link a {
     height: 40px;
     margin-top: 70px;
     background: #48cfad;
-    text-align: center;
-    font-weight: 700;
-    font-size: 1.7rem;
+    display: grid;
+    align-items: center;    
     border: 1px solid #aed5cb;
     line-height: 38px;
+}
+.home-main-button a {
+    font-weight: 700;
+    font-size: 1.7rem;
 }
