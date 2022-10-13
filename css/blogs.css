@@ -71,7 +71,7 @@ nav .profile-link a {
     border-bottom: 1px solid black;
 }
 .blogs-main {
-    height: 530px;
+    height: 400px;
     width: 100vw;
     display: grid;
     grid-template-columns: repeat(2 50vh);
@@ -91,14 +91,14 @@ nav .profile-link a {
 }
 .blogs-main-news img {
     margin-top: 20px;
-    width: 600px;
+    width: 100%;
 }
 .blogs-main-blog {
     grid-column: 2 / 3;
     margin: 0 130px 0 40px;
 }
 .blogs-main-blog h2 {
-    margin-top: 100px;
+    margin-top: 90px;
     font-size: 1.9rem;
     font-weight: bolder;
 }
@@ -119,15 +119,19 @@ nav .profile-link a {
     border: 1px solid #47cfac;
 }
 .last-blogposts {
-    width: 100vw;
+    width: 90vw;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
+    margin: 0 50px;
 }
 .last-blogposts h3 {
-    width: 100vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     grid-column: 1 / 4;
-    margin: 10px;
+    margin: 5px 0 10px;
+    padding: 10px;
+    border-bottom: 1px solid black;
 }
 .last-blogposts article {
     justify-items: center;
