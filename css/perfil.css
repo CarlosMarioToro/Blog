@@ -80,7 +80,7 @@ nav .profile-link a {
     background-color: #e6e9ed;
 }
 .blogpost-main-profile img {
-    width: 350px;
+    width: 200px;
     margin-left: 50px;
 }
 .blogpost-main-profile div h2 {
@@ -109,14 +109,13 @@ nav .profile-link a {
     gap: 20px;
     margin: 0 50px;
 }
-.blogpost-main-projects section div {
+.blogpost-main-projects section article {
     text-align: initial;
 }
-.blogpost-main-projects section div p {
+.blogpost-main-projects section article p {
     font-size: 1.5rem;
     margin-top: 15px;
 }
-
 /* contacto */
 .contact-main-container {
     width: 100%;
