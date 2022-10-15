@@ -1,0 +1,85 @@
+@media (max-width: 320px) {
+    header {
+        width: 90%;
+        height: 100px;
+    }
+    header .header-icons-container {
+        width: 90%;
+    }
+    nav {
+        width: 90%;
+        height: 50px;
+    }
+    nav .nav-logo-container {
+        margin-left: 10px;
+    }
+    nav .nav-logo-container img {
+        width: 100px;
+        margin-top: 10px;
+    }
+    nav .profile-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0px;
+    }
+    .blogpost-main-container {
+        width: 100%;
+        min-height: 700px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .blogpost-main-container .blogpost-main-profile {
+        flex-direction: column;
+        padding: 80px;
+    }
+    .blogpost-main-projects {
+        width: 100%;
+        min-height: 350px;
+        padding: 10px;
+    }
+    .blogpost-main-projects section {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .contact-main-container {
+        flex-direction: column;
+    }
+    .contact-main-container div {
+        width: 100%;
+    }.contact-main-container .contact-left, .contact-main-container .contact-right {
+        width: 180px;
+    }
+    .contact-left p, .contact-right p {
+        width: 210px;
+    }
+}
+@media (max-width: 375px) {
+    .blogpost-main-container .blogpost-main-profile {
+        flex-direction: column;
+    }
+    .blogpost-main-projects section {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .contact-main-container {
+        flex-direction: column;
+    }
+}
+@media (max-width: 425px) {
+    .blogpost-main-container .blogpost-main-profile {
+        flex-direction: column;
+    }
+    .blogpost-main-projects section {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .contact-main-container {
+        flex-direction: column;
+    }
+}
+@media (max-width: 768px) {
+    .blogpost-main-container .blogpost-main-profile {
+        padding: 10px;
+    }
+}
