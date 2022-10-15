@@ -93,8 +93,43 @@ nav .profile-link a {
 .blogpost-main-container article h1 {
     font-size: 3.5rem;
     margin-top: 15px;
+    margin-bottom: 30px;
 }
-
+.blogpost-main-container article p {
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+.contact-main-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 250px;
+    background-color: #e6e9ed;
+    padding-bottom: 50px;
+}
+.contact-main-container img {
+    height: 100px;
+    margin-bottom: 40px;
+}
+.contact-main-container div {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.contact-main-container .contact-left, .contact-main-container .contact-right {
+    display: block;
+    width: 250px;
+    margin-left: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.contact-left a, .contact-right a {
+    border-bottom: 1px solid black;
+}
+.contact-left p, .contact-right p {
+    margin-top: 10px;
+}
 /* footer */
 footer {
     width: 100%;
