@@ -80,7 +80,7 @@ nav .profile-link a {
     background-color: #e6e9ed;
 }
 .blogpost-main-profile img {
-    width: 200px;
+    width: 250px;
     margin-left: 50px;
 }
 .blogpost-main-profile div h2 {
@@ -96,6 +96,7 @@ nav .profile-link a {
 }
 .blogpost-main-projects {
     min-height: 350px;
+    padding: 20px 50px;
 }
 .blogpost-main-projects > h2 {
     font-size: 2rem;
@@ -105,9 +106,9 @@ nav .profile-link a {
 .blogpost-main-projects section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding-top: 20px;
-    gap: 20px;
+    padding-top: 30px;
     margin: 0 50px;
+    gap: 30px;
 }
 .blogpost-main-projects section article {
     text-align: initial;
